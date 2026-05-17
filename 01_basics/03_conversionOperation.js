@@ -1,3 +1,5 @@
+
+
 let score = undefined
 
 console.log(typeof score)
@@ -46,3 +48,35 @@ const myFunction = function(){
 }
 
 console.log(typeof myFunction)
+
+//***************Operations ***********************
+
+// stack (Primitive), Heap (Non Primitive)
+
+let myYoutubeName = "hiteshChoudharyCom"
+let anotherName = myYoutubeName
+anotherName = "chaiaurcode"
+console.log(myYoutubeName)
+console.log(anotherName)
+
+let userOne = {
+    email: "user@email.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+userTwo.email = "hitesh@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email)
+
+const name = "Priiyanshu"
+const repocount = 50
+
+console.log(`Hello my name is ${name} and my repo count is ${repocount}`);
+
+const gameName = new String('warrior')
+console.log(gameName[0])
+console.log(gameName.__proto__)
+
+
